@@ -20,10 +20,10 @@ $include lua.txt
 @SERVERNAME Bubberstation [18+, Furry RP with a touch of Antags]
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE [Discord Whitelist] Happy 6-Month Anniversary, Bubberstation! Come join in the fun!
+SERVERTAGLINE [Discord Whitelist] There's too many people. The whitelist handlers are sobbing. Please do not join.
 
 ## Discord Link: This is the link to Bubberstation's discord server
-@DISCORD_LINK https://discord.gg/bubberstation
+@DISCORD_LINK https://discord.gg/x4CVEHy6u7
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -184,10 +184,10 @@ LOG_SPEECH_INDICATORS
 PICTURE_LOGGING_CAMERA
 
 ## period of time in seconds for players to be considered inactive
-INACTIVITY_PERIOD 1800
+INACTIVITY_PERIOD 300
 
 ## period of time in seconds for players to be considered afk and kickable
-AFK_PERIOD 3600
+AFK_PERIOD 600
 
 ## disconnect players who are considered afk
 #KICK_INACTIVE
