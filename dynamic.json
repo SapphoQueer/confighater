@@ -326,6 +326,7 @@
             ]
 		},
 		"Drifting Contractor": {
+            "weight": 0,
 			"cost": 7,
 			"minimum_required_age": 7,
 			"requirements": [
