@@ -128,8 +128,8 @@
 [CUSTOMS_AGENT]
 "Playtime Requirements" = 360
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [CYBORG]
 "Playtime Requirements" = 120
@@ -146,8 +146,8 @@
 [ENGINEERING_GUARD]
 "Playtime Requirements" = 180
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [GENETICIST]
 "Playtime Requirements" = 0
@@ -200,8 +200,8 @@
 [ORDERLY]
 "Playtime Requirements" = 360
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [PARAMEDIC]
 "Playtime Requirements" = 0
@@ -242,8 +242,8 @@
 [SCIENCE_GUARD]
 "Playtime Requirements" = 360
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [SCIENTIST]
 "Playtime Requirements" = 0
