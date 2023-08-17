@@ -25,14 +25,14 @@
 		},
 
 		"Changelings": {
-			"cost": 8,
-			"weight": 5,
+			"cost": 16,
+			"weight": 4,
 			"minimum_required_age": 7
 		},
 
 		"Heretics": {
-			"cost": 8,
-			"weight": 5,
+			"cost": 18,
+			"weight": 4,
 			"minimum_required_age": 7
 		},
 
@@ -48,13 +48,13 @@
 		},
 
 		"Nuclear Emergency": {
-			"cost": 10,
+			"cost": 25,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
 
 		"Revolution": {
-			"cost": 10,
+			"cost": 20,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
@@ -98,7 +98,7 @@
 
 		"Malfunctioning AI": {
 			"weight": 3,
-			"cost": 13,
+			"cost": 16,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -214,8 +214,8 @@
 		},
 
 		"Space Dragon": {
-			"cost": 12,
-			"weight": 2,
+			"cost": 18,
+			"weight": 1,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
 			"minimum_round_time": 27000,
@@ -234,7 +234,7 @@
 		},
 
 		"Abductors": {
-			"cost": 12,
+			"cost": 9,
 			"weight": 7,
 			"minimum_required_age": 7,
 			"requirements": [
@@ -253,7 +253,7 @@
 
 		"Space Ninja": {
 			"weight": 4,
-			"cost": 10,
+			"cost": 13,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -312,7 +312,7 @@
 			"minimum_required_age": 7
 		},
 		"Lone Infiltrator": {
-			"cost": 7,
+			"cost": 13,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -329,7 +329,7 @@
 		},
 		"Drifting Contractor": {
             "weight": 0,
-			"cost": 7,
+			"cost": 11,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -353,8 +353,8 @@
 	"Latejoin": {
 		"Syndicate Infiltrator": {
 			"weight": 7,
-			"cost": 6,
-            "scaling_cost": 6,
+			"cost": 8,
+            "scaling_cost": 9,
 			"minimum_required_age": 7
 		},
 
@@ -365,12 +365,12 @@
 
 		"Heretic Smuggler": {
 			"weight": 5,
-			"cost": 8,
+			"cost": 13,
 			"minimum_required_age": 7
 		},
 		"Stowaway Changeling": {
 			"weight": 5,
-			"cost": 8,
+			"cost": 13,
 			"minimum_required_age": 7
 		}
 	}
