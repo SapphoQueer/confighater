@@ -179,8 +179,9 @@
 
 		"Alien Infestation": {
 			"weight": 0,
+			"cost": 35,
 			"minimum_required_age": 7,
-			"minimum_round_time": 27000,
+			"minimum_round_time": 36000,
 			"requirements": [
 				101,
 				101,
