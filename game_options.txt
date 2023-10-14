@@ -21,7 +21,7 @@ EMOJIS
 
 ## HEART COMMENDATIONS ###
 ## Uncomment this if you'd like to enable commendation pollings for this percentage of players near the end of the round (5% suggested)
-COMMENDATION_PERCENT_POLL 0.05
+COMMENDATION_PERCENT_POLL 0.15
 
 ## MOB MOVEMENT ###
 
@@ -229,7 +229,7 @@ NEAR_DEATH_EXPERIENCE
 ## Set to 4 for "specified", silicons will start with an existing lawset. (If no specified lawset is identified, the AI will spawn with asimov.)
 
 
-DEFAULT_LAWS 1
+DEFAULT_LAWS 4
 
 ## SILICON ASIMOV SUPERIORITY OVERRIDE ###
 ## This makes "Asimov Superiority" show up as a perk for humans in the character creation menu even if asimov is not the default lawset, such as when used with asimov++
@@ -242,7 +242,7 @@ DEFAULT_LAWS 1
 ## See datums\ai_laws.dm for the full law lists
 ## IE, SPECIFIED_LAWS asimovpp, SPECIFIED_LAWS robocop, SPECIFIED_LAWS antimov
 
-SPECIFIED_LAWS crewsimov
+SPECIFIED_LAWS armadyne_safeguard
 
 ## RANDOM LAWS ##
 ## ------------------------------------------------------------------------------------------
