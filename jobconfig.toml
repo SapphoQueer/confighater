@@ -16,7 +16,6 @@
 ## "# Total Positions" should always be changed to "Total Positions", no additional spacing.
 ## Best of luck editing!
 
-
 [AI]
 "Playtime Requirements" = 1200
 "Required Account Age" = 30
@@ -26,8 +25,8 @@
 [ASSISTANT]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = -1
-"Total Positions" = -1
+"Spawn Positions" = 100
+"Total Positions" = 100
 
 [ATMOSPHERIC_TECHNICIAN]
 "Playtime Requirements" = 0
@@ -44,8 +43,8 @@
 [BARTENDER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [BLUESHIELD]
 "Playtime Requirements" = 1200
@@ -62,8 +61,8 @@
 [BOUNCER]
 "Playtime Requirements" = 180
 "Required Account Age" = 0
-"Spawn Positions" = 0
-"Total Positions" = 0
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [CAPTAIN]
 "Playtime Requirements" = 1200
@@ -140,8 +139,8 @@
 [DETECTIVE]
 "Playtime Requirements" = 300
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [ENGINEERING_GUARD]
 "Playtime Requirements" = 180
@@ -206,8 +205,8 @@
 [PARAMEDIC]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 4
-"Total Positions" = 4
+"Spawn Positions" = 2
+"Total Positions" = 2
 
 [PRISONER]
 "Playtime Requirements" = 0
@@ -294,6 +293,12 @@
 "Total Positions" = 1
 
 [BLACKSMITH]
+"Playtime Requirements" = 0
+"Required Account Age" = 0
+"Spawn Positions" = 1
+"Total Positions" = 1
+
+[CORONER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "Spawn Positions" = 1
