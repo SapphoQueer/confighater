@@ -1,64 +1,102 @@
 {
 	"Dynamic": {
-		"pop_per_requirement": 10,
+		"pop_per_requirement": 7,
 		"threat_per_midround_roll": 5,
 		"midround_roll_distance": 3000,
-		"midround_upper_bound": 54000,
+		"midround_upper_bound": 81000,
 		"midround_lower_bound": 6000,
-		"max_threat_level": 100,
-		"hijacked_random_event_injection_chance_modifier": 10,
-		"low_pop_player_threshold": 20,
-		"low_pop_maximum_threat": 10,
+		"low_pop_player_threshold": 10,
+		"low_pop_maximum_threat": 40,
 		"latejoin_roll_chance": 50
 	},
 	"Roundstart": {
 		"Traitors": {
-			"cost": 8,
-			"scaling_cost": 9,
+			"cost": 10,
+			"scaling_cost": 5,
 			"weight": 8,
 			"minimum_required_age": 7
 		},
 
 		"Blood Brothers": {
-			"weight": 8,
+			"weight": 1,
 			"minimum_required_age": 7
 		},
 
 		"Changelings": {
-			"cost": 16,
-			"weight": 4,
+			"cost": 15,
+			"weight": 3,
+			"minimum_players": 22,
 			"minimum_required_age": 7
 		},
 
 		"Heretics": {
-			"cost": 18,
-			"weight": 4,
+			"cost": 15,
+			"weight": 3,
+			"minimum_players": 25,
 			"minimum_required_age": 7
 		},
 
 		"Wizard": {
-			"weight": 0
+			"weight": 0,
+			"minimum_required_age": 7
 		},
 
 		"Blood Cult": {
-			"cost": 26,
-			"minimum_players": 40,
-			"weight": 3,
-			"minimum_required_age": 7
+			"cost": 50,
+			"minimum_players": 30,
+			"weight": 1,
+			"minimum_required_age": 7,
+			"requirements": [
+				40,
+				40,
+				40,
+				40,
+				30,
+				30,
+				20,
+				20,
+				20,
+				20
+				]
 		},
 
 		"Nuclear Emergency": {
-			"cost": 25,
+			"cost": 50,
 			"weight": 1,
-			"minimum_required_age": 7
+    		"minimum_players": 25,
+			"minimum_required_age": 7,
+			"requirements": [
+				40,
+				40,
+				40,
+				40,
+				30,
+				30,
+				20,
+				20,
+				20,
+				20
+				]
 		},
 
 		"Revolution": {
-			"cost": 20,
+			"cost": 50,
 			"weight": 1,
-			"minimum_required_age": 7
+			"minimum_players": 25,
+			"minimum_required_age": 7,
+			"requirements": [
+				40,
+				40,
+				40,
+				40,
+				30,
+				30,
+				20,
+				20,
+				20,
+				20
+			]
 		},
-
 		"Extended": {
 			"weight": 5,
 			"cost": 0,
@@ -80,36 +118,36 @@
 	"Midround": {
 		"Syndicate Sleeper Agent": {
 			"weight": 7,
-			"cost": 6,
+			"cost": 10,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
 				70,
-				50,
-				50,
-				40,
 				40,
 				30,
 				30,
+				20,
+				20,
+				20,
 				20,
 				10
 			]
 		},
 
 		"Malfunctioning AI": {
-			"weight": 3,
-			"cost": 16,
+			"weight": 5,
+			"cost": 15,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
+				40,
+				40,
 				40,
 				30,
-				10,
+				30,
+				20,
 				10
 			]
 		},
@@ -120,147 +158,144 @@
 		},
 
 		"Nuclear Assault": {
-			"weight": 1,
+			"weight": 0,
+      		"cost": 30,
 			"minimum_required_age": 7,
-			"minimum_round_time": 27000,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
+				40,
+				40,
 				40,
 				30,
-				10,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Blob": {
-			"weight": 1,
-			"cost": 10,
+			"weight": 3,
+			"cost": 15,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
-			"minimum_round_time": 27000,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
 				40,
 				30,
-				10,
+				30,
+				30,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Blob Infection": {
 			"weight": 1,
-			"cost": 10,
+			"cost": 15,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
-			"minimum_round_time": 27000,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
+				40,
+				40,
 				40,
 				30,
-				10,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Alien Infestation": {
-			"weight": 0,
-			"cost": 35,
+	      		"cost": 40,
+			"weight": 1,
 			"minimum_required_age": 7,
-			"minimum_round_time": 36000,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
 				40,
 				30,
-				10,
+				30,
+				30,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Nightmare": {
-			"cost": 10,
-			"weight": 4,
+			"cost": 5,
+			"weight": 5,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
 				40,
 				30,
+				20,
+				20,
+				10,
+				10,
 				10,
 				10
 			]
 		},
 
 		"Space Dragon": {
-			"cost": 18,
-			"weight": 1,
+			"cost": 15,
+			"weight": 2,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
-			"minimum_round_time": 27000,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
 				40,
 				30,
-				10,
+				30,
+				30,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Abductors": {
-			"cost": 9,
-			"weight": 7,
+			"cost": 12,
+			"weight": 2,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
-				101,
-				90,
-				80,
 				70,
-				50,
+				40,
+				40,
+				40,
 				40,
 				30,
-				10,
+				30,
+				20,
 				10
 			]
 		},
 
 		"Space Ninja": {
-			"weight": 4,
-			"cost": 13,
+			"weight": 3,
+			"cost": 10,
+			"minimum_players": 40,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
 				70,
-				50,
-				50,
+				40,
+				40,
 				40,
 				40,
 				30,
@@ -270,21 +305,52 @@
 			]
 		},
 		"Spiders": {
-			"weight": 0,
-			"minimum_required_age": 7
-		},
-		"Obsessed": {
-			"cost": 5,
-			"minimum_required_age": 7
-		},
-		"Space Pirates": {
-			"weight": 4,
-			"cost": 12,
+      		"cost": 25,
+			"weight": 1,
+			"minimum_required_age": 7,
 			"requirements": [
 				101,
 				70,
-				50,
-				50,
+				40,
+				40,
+				30,
+				30,
+				30,
+				30,
+				20,
+				10
+			]
+		},
+		"Obsessed": {
+			"cost": 1,
+			"minimum_required_age": 7
+		},
+		"Space Pirates": {
+			"weight": 1,
+			"cost": 10,
+			"minimum_required_age": 7,
+			"requirements": [
+				101,
+				70,
+				40,
+				40,
+				30,
+				30,
+				30,
+				30,
+				20,
+				10
+			]
+		},
+		"Dangerous Space Pirates": {
+			"weight": 1,
+			"cost": 30,
+			"minimum_required_age": 7,
+			"requirements": [
+				101,
+				70,
+				40,
+				40,
 				40,
 				40,
 				30,
@@ -293,33 +359,29 @@
 				10
 			]
 		},
-		"Dangerous Space Pirates": {
-			"weight": 0,
-			"cost": 16,
-			"minimum_required_age": 7
-		},
 		"Sentient Disease": {
-			"weight": 2,
-			"cost": 7,
+			"weight": 0,
+			"cost": 20,
 			"minimum_required_age": 7
 		},
 		"Revenant": {
-			"weight": 0,
-			"cost": 5,
+			"weight": 5,
+			"cost": 10,
 			"minimum_required_age": 7
 		},
 		"Space Changeling": {
-			"weight": 0,
+			"weight": 5,
+			"cost": 16,
 			"minimum_required_age": 7
 		},
 		"Lone Infiltrator": {
-			"cost": 13,
+			"cost": 10,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
 				70,
-				50,
-				50,
+				40,
+				40,
 				40,
 				40,
 				30,
@@ -329,14 +391,14 @@
 			]
 		},
 		"Drifting Contractor": {
-            "weight": 0,
-			"cost": 11,
+      "weight": 2,
+			"cost": 10,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
 				70,
-				50,
-				50,
+				40,
+				40,
 				40,
 				40,
 				30,
@@ -346,16 +408,17 @@
 			]
 		},
 		"Paradox Clone": {
-			"weight": 0,
+      "cost": 10,
+			"weight": 2,
 			"minimum_required_age": 7
 		}
 	},
 
 	"Latejoin": {
 		"Syndicate Infiltrator": {
-			"weight": 7,
-			"cost": 8,
-            "scaling_cost": 9,
+			"weight": 8,
+			"cost": 10,
+            "scaling_cost": 7,
 			"minimum_required_age": 7
 		},
 
@@ -365,13 +428,13 @@
 		},
 
 		"Heretic Smuggler": {
-			"weight": 5,
-			"cost": 13,
+			"weight": 4,
+			"cost": 10,
 			"minimum_required_age": 7
 		},
 		"Stowaway Changeling": {
-			"weight": 5,
-			"cost": 13,
+			"weight": 4,
+			"cost": 15,
 			"minimum_required_age": 7
 		}
 	}
