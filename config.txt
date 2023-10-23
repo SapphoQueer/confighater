@@ -17,10 +17,10 @@ $include lua.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-@SERVERNAME Bubberstation [18+, Furry RP with a touch of Antags] (Apply on Discord!)
+@SERVERNAME Bubberstation [18+, Furry RP with Antags] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE This server still running thanks to the T*yota Hilux.
+SERVERTAGLINE Boykisser, or boykiller, you'll find your place here! Find friends and crush them. ♥
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/x4CVEHy6u7
@@ -269,13 +269,13 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+# FORUMURL https://discord.gg/x4CVEHy6u7
 
 ## Wiki address
-WIKIURL http://www.tgstation13.org/wiki
+WIKIURL https://wiki.bubberstation.org
 
 ## Rules address
-RULESURL https://docs.google.com/spreadsheets/d/1ZWBXpSQHezGgkl72SSi-rMKhIu9BDefbknq_5uUui9A/edit?usp=sharing
+RULESURL https://wiki.bubberstation.org/index.php?title=Rules
 
 ## Github address
 GITHUBURL https://github.com/Bubberstation/Bubberstation
@@ -445,12 +445,12 @@ AUTOADMIN_RANK Game Master
 #AUTO_DEADMIN_TIMEGATE 600
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
-AUTO_DEADMIN_ANTAGONISTS
+#AUTO_DEADMIN_ANTAGONISTS
 
 ## Uncomment to automatically deadmin specific role sets when a player joins the game.
-AUTO_DEADMIN_HEADS
-AUTO_DEADMIN_SECURITY
-AUTO_DEADMIN_SILICONS
+#AUTO_DEADMIN_HEADS
+#AUTO_DEADMIN_SECURITY
+#AUTO_DEADMIN_SILICONS
 
 
 ## CLIENT VERSION CONTROL
