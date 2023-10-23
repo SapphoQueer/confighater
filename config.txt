@@ -17,7 +17,7 @@ $include lua.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-@SERVERNAME Bubberstation [18+, Furry RP with Antags] (Apply on Discord!)
+@SERVERNAME Bubberstation [18+, Furry RP with Antags!] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
 SERVERTAGLINE Boykisser, or boykiller, you'll find your place here! Find friends and crush them. ♥
@@ -211,7 +211,7 @@ ALLOW_VOTE_MODE
 ALLOW_VOTE_MAP
 
 ## allow players to rock the vote, or to vote on the map again if they didn't like the last results
-ALLOW_ROCK_THE_VOTE
+#ALLOW_ROCK_THE_VOTE
 
 ## the number of times you wish to allow players to rock the vote in a given shift
 MAX_ROCKING_VOTES 1
@@ -223,7 +223,7 @@ VOTE_DELAY 6000
 VOTE_PERIOD 600
 
 ## prevents dead players from voting or starting votes
-#NO_DEAD_VOTE
+NO_DEAD_VOTE
 
 ## players' votes default to "No vote" (otherwise,  default to "No change")
 #DEFAULT_NO_VOTE
@@ -243,13 +243,13 @@ CHECK_RANDOMIZER
 ## IPINTEL:
 ## This allows you to detect likely proxies by checking ips against getipintel.net
 ## Rating to warn at: (0.9 is good, 1 is 100% likely to be a spammer/proxy, 0.8 is 80%, etc) anything equal to or higher then this number triggers an admin warning
-#IPINTEL_RATING_BAD 0.9
+IPINTEL_RATING_BAD 0.9
 ## Contact email, (required to use the service, leaving blank or default disables IPINTEL)
-#IPINTEL_EMAIL ch@nge.me
+IPINTEL_EMAIL ch@nge.me
 ## How long to save good matches (ipintel rate limits to 15 per minute and 500 per day. so this shouldn't be too low, getipintel.net suggests 6 hours, time is in hours) (Your ip will get banned if you go over 500 a day too many times)
-#IPINTEL_SAVE_GOOD 12
+IPINTEL_SAVE_GOOD 24
 ## How long to save bad matches (these numbers can change as ips change hands, best not to save these for too long in case somebody gets a new ip used by a spammer/proxy before.)
-#IPINTEL_SAVE_BAD 3
+IPINTEL_SAVE_BAD 24
 ## Domain name to query (leave commented out for the default, only needed if you pay getipintel.net for more querys)
 #IPINTEL_DOMAIN check.getipintel.net
 
@@ -269,10 +269,10 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL https://discord.gg/x4CVEHy6u7
+FORUMURL https://discord.gg/x4CVEHy6u7
 
 ## Wiki address
-WIKIURL https://wiki.bubberstation.org
+WIKIURL https://wiki.bubberstation.org/
 
 ## Rules address
 RULESURL https://wiki.bubberstation.org/index.php?title=Rules
@@ -547,7 +547,7 @@ ROUNDS_UNTIL_HARD_RESTART 0
 ##  15x15 would be the standard square view. 21x15 is what goonstation uses for widescreen.
 ##  Setting this to something different from DEFAULT_VIEW_SQUARE will enable widescreen toggles
 ##	Do note that changing this value will affect the title screen. The title screen will have to be updated manually if this is changed.
-DEFAULT_VIEW 21x15
+DEFAULT_VIEW 19x15
 
 ##Default view size, in tiles. Should *always* be square.
 ## The alternative square viewport size if you're using a widescreen view size
