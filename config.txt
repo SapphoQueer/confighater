@@ -20,7 +20,7 @@ $include lua.txt
 @SERVERNAME Bubberstation [18+, Furry RP with Antags!] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE Boykisser, or boykiller, you'll find your place here! Find friends and crush them. ♥
+SERVERTAGLINE The station may be in ruins, but at least the moths are glowing green!
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/x4CVEHy6u7
@@ -190,7 +190,7 @@ INACTIVITY_PERIOD 300
 AFK_PERIOD 1200
 
 ## disconnect players who are considered afk
-KICK_INACTIVE
+#KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
 ALLOW_ADMIN_OOCCOLOR
@@ -311,6 +311,9 @@ DISCORDBOTCOMMANDPREFIX ?
 ## The default value assumes youtube-dl is in your system PATH
 INVOKE_YOUTUBEDL yt-dlp
 
+## Comment this out to disable users ability to use the request internet sounds to be played.
+REQUEST_INTERNET_SOUND
+
 ## In-game features
 
 ## Toggle for having jobs load up from the jobconfig.toml (or jobs.txt) file. Will use codebase defaults if commented out.
@@ -360,19 +363,19 @@ NOTE_STALE_DAYS 365.2422
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-#SOFT_POPCAP 100
+SOFT_POPCAP 90
 
 ## Message for soft cap
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-#HARD_POPCAP 150
+HARD_POPCAP 100
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
-#EXTREME_POPCAP 200
+EXTREME_POPCAP 120
 
 ## Message for extreme cap
 EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
@@ -634,7 +637,7 @@ Bubberbot
 ## You can use this multiple times, and the MOTDs will be appended in order.
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
 MOTD motd.txt
-#MOTD motd_extra.txt
+MOTD motd_extra.txt
 
 ## Assets can opt-in to caching their results into `tmp`.
 ## This is important, as preferences assets take upwards of 30 seconds (without sleeps) to collect.
