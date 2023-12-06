@@ -6,8 +6,10 @@
 
 ReturnToZender = Host
 Snaffle15 = Head Administrator
-SonicGotNuked = Lead Maintainer
+# - Sonicgotnuked alt account -
+FidgetSpinner = System Administrator
 Nevimer = Lead Maintainer
+# - Zirok alt account -
 booktower = System Administrator
 
 
