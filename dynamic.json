@@ -1,7 +1,7 @@
 {
 	"Dynamic": {
-		"pop_per_requirement": 7,
-		"threat_per_midround_roll": 7,
+		"pop_per_requirement": 100,
+		"threat_per_midround_roll": 100,
 		"midround_roll_distance": 3000,
 		"midround_upper_bound": 72000,
 		"midround_lower_bound": 18000,
