@@ -382,9 +382,10 @@
 			"minimum_required_age": 7
 		},
 		"Drifting Contractor": {
-      		"weight": 5,
+			"weight": 5,
 			"cost": 10,
 			"minimum_required_age": 7,
+			"required_candidates": 1,
 			"requirements": [
 				101,
 				70,
@@ -399,7 +400,7 @@
 			]
 		},
 		"Paradox Clone": {
-      		"cost": 10,
+			"cost": 10,
 			"weight": 5,
 			"minimum_required_age": 7
 		}
