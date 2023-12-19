@@ -63,7 +63,7 @@
 		"Nuclear Emergency": {
 			"cost": 30,
 			"weight": 1,
-    		"minimum_players": 25,
+			"minimum_players": 25,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -159,7 +159,7 @@
 
 		"Nuclear Assault": {
 			"weight": 0,
-      		"cost": 30,
+			"cost": 30,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -214,7 +214,7 @@
 		},
 
 		"Alien Infestation": {
-	      		"cost": 20,
+			"cost": 20,
 			"weight": 2,
 			"minimum_required_age": 7,
 			"repeatable": 0,
@@ -307,7 +307,7 @@
 			]
 		},
 		"Spiders": {
-      		"cost": 15,
+			"cost": 15,
 			"weight": 3,
 			"minimum_players": 30,
 			"minimum_required_age": 7,
@@ -382,9 +382,10 @@
 			"minimum_required_age": 7
 		},
 		"Drifting Contractor": {
-      		"weight": 5,
+			"weight": 5,
 			"cost": 10,
 			"minimum_required_age": 7,
+			"required_candidates": 1,
 			"requirements": [
 				101,
 				70,
@@ -399,7 +400,7 @@
 			]
 		},
 		"Paradox Clone": {
-      		"cost": 10,
+			"cost": 10,
 			"weight": 5,
 			"minimum_required_age": 7
 		}
