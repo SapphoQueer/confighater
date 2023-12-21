@@ -20,7 +20,7 @@ $include lua.txt
 @SERVERNAME Bubberstation [18+, Furry RP with Antags!] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE Please get me down from here. Someone forgot the ladder.
+SERVERTAGLINE Please share a light with your local moth 
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/x4CVEHy6u7
