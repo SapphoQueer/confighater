@@ -19,10 +19,10 @@ endmap
 
 map metastation
 	minplayers 30
-	votable
 endmap
 
 map deltastation
+	votable
 	minplayers 30
 endmap
 
