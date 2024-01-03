@@ -20,7 +20,7 @@ $include lua.txt
 @SERVERNAME Bubberstation [18+, Furry RP with Antags!] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE Please share a light with your local moth 
+SERVERTAGLINE Happy Bubberversary! Come share a light with your local moth. 
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/x4CVEHy6u7
@@ -35,7 +35,7 @@ STATIONNAME Bubberstation 13
 HUB
 
 ## Once the server population reaches this number, it will be taken off the byond hub. 0 disables.
-#MAX_HUB_POP 100
+#MAX_HUB_POP 300
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 240
@@ -363,22 +363,22 @@ NOTE_STALE_DAYS 365.2422
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-SOFT_POPCAP 90
+SOFT_POPCAP 100
 
 ## Message for soft cap
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-HARD_POPCAP 100
+HARD_POPCAP 130
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
-EXTREME_POPCAP 120
+EXTREME_POPCAP 150
 
 ## Message for extreme cap
-EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
+EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers. This is not a server ban, this is a kick for having too many players. You will be able to join after the server population goes back beneath the cap threshold.
 
 ## Uncomment to allow BYOND subscribers to bypassing server connection population cap. (Living player population cap still applies.)
 BYOND_MEMBER_BYPASS_POPCAP
