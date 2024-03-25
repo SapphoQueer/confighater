@@ -15,15 +15,18 @@ endmap
 
 map birdshot
 	maxplayers 70
+  votable
 endmap
 
 map metastation
+	votable
 	minplayers 30
 	votable
 endmap
 
 map deltastation
 	minplayers 30
+  votable
 endmap
 
 map kilostation
@@ -49,6 +52,7 @@ endmap
 
 map northstar
 	minplayers 65
+  votable
 endmap
 
 map biodome
@@ -69,6 +73,7 @@ endmap
 
 map limastation
 	minplayers 30
+  votable
 endmap
 
 map moonstation
@@ -76,4 +81,8 @@ map moonstation
 endmap
 
 map ss13_construct
+endmap
+
+map boxstation
+  votable
 endmap
