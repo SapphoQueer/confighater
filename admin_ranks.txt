@@ -44,30 +44,31 @@ Include = ADMIN AUTOADMIN BAN BUILD SPAWN VAREDIT SERVER SOUND
 Exclude =
 Edit =
 
+#not used by us
 Name = Admin Candidate
-Include = @ SPAWN VAREDIT
+Include = @
 Exclude =
 Edit =
 
 Name = Trial Admin
-Include = @ POLL BAN POSSESS BUILD SERVER FUN DEBUG
+Include = @ POLL POSSESS FUN DEBUG
 Exclude =
 Edit =
 
 Name = Administrator
-Include = @ STEALTH DEBUG
+Include = @ STEALTH
 Exclude =
 Edit =
 
 Name = Senior Administrator
-Include = @ STEALTH DEBUG
+Include = @
 Exclude =
 Edit =
 
 Name = Admin Trainer
 Include = @ PERMISSIONS
 Exclude =
-Edit = ADMIN AUTOADMIN SPAWN VREDIT POLL BAN POSSESS BUILD SERVER FUN SOUND DEBUG STEALTH
+Edit = ADMIN AUTOADMIN SPAWN VAREDIT POLL BAN POSSESS BUILD SERVER FUN SOUND DEBUG STEALTH
 
 Name = Head Administrator
 Include = EVERYTHING
@@ -75,19 +76,26 @@ Exclude =
 Edit = EVERYTHING
 
 Name = Maintainer
-Include = DEBUG VAREDIT SERVER SPAWN BUILD
-Exclude =
+Include = DEBUG VAREDIT SERVER SPAWN BUILD ADMIN SPAWN POLL
+Exclude = AUTOADMIN
 Edit =
 
+#not used by us
 Name = Coder
 Include = @
 Exclude = AUTOADMIN
 Edit = 
 
 Name = Lead Maintainer
-Include = @ SOUND POLL
+Include = @ SOUND
+Exclude = AUTOADMIN
+Edit = 
+
+#Mostly people that have SSH access anyways- zirok, nevimer
+Name = System Administrator
+Include = Everything
 Exclude =
-Edit = DEBUG AUTOADMIN VAREDIT SERVER SPAWN BUILD
+Include = Everything
 
 Name = Host
 Include = EVERYTHING
