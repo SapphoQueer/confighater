@@ -5,9 +5,9 @@
 #If SQL-based admin loading is enabled, admins listed here will always be loaded first and will override any duplicate entries in the database.
 
 ReturnToZender = Host
-Snaffle15 = Head Administrator
 Nevimer = Lead Maintainer
 # - Zirok alt account -
-booktower = System Administrator
+booktower = Lead Maintainer
+
 
 
