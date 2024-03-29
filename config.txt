@@ -7,6 +7,7 @@ $include resources.txt
 $include skyrat/skyrat_config.txt
 $include interviews.txt
 $include lua.txt
+$include secret/discord.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
@@ -20,7 +21,7 @@ $include lua.txt
 @SERVERNAME Bubberstation [18+, Furry RP with Antags!] (Apply on Discord!)
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE Happy Bubberversary! Come share a light with your local moth. 
+SERVERTAGLINE Come share a light with your local moth!
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/x4CVEHy6u7
@@ -190,7 +191,7 @@ INACTIVITY_PERIOD 300
 AFK_PERIOD 1200
 
 ## disconnect players who are considered afk
-#KICK_INACTIVE
+KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
 ALLOW_ADMIN_OOCCOLOR
@@ -363,7 +364,7 @@ NOTE_STALE_DAYS 365.2422
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-SOFT_POPCAP 100
+SOFT_POPCAP 90
 
 ## Message for soft cap
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider trying other servers.
@@ -410,13 +411,12 @@ PANIC_BUNKER
 ## %minutes% is replaced with PANIC_BUNKER_LIVING on runtime, remove it if you don't want this
 PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/x4CVEHy6u7
 
-
 ## If panic bunker is on and a player is rejected (see above), attempt to send them to this connected server (see below) instead.
 ##	You probably want this to be the same as CROSS_SERVER_ADDRESS
-#PANIC_SERVER_ADDRESS byond://address:port
+PANIC_SERVER_ADDRESS byond://skyrat13.space:22094
 
 ##Name of the place to send people rejected by the bunker
-#PANIC_SERVER_NAME [Put the name here]
+PANIC_SERVER_NAME Skyrat SS13
 
 ## Uncomment to have the changelog file automatically open when a user connects and hasn't seen the latest changelog
 AGGRESSIVE_CHANGELOG
@@ -428,7 +428,7 @@ AUTOCONVERT_NOTES
 ANNOUNCE_ADMIN_LOGOUT
 
 ## Uncomment to have an admin message sent anytime an admin connects to a round in play, you can edit the messages in admin.dm
-#ANNOUNCE_ADMIN_LOGIN
+ANNOUNCE_ADMIN_LOGIN
 
 ## Map rotation
 ## You should edit maps.txt to match your configuration when you enable this.
@@ -446,7 +446,6 @@ AUTOADMIN_RANK Game Master
 ## Uncomment to automatically give that admin rank to all players
 #AUTOADMIN
 
-
 ## Uncomment to automatically deadmin players when the game starts.
 #AUTO_DEADMIN_PLAYERS
 
@@ -454,13 +453,12 @@ AUTOADMIN_RANK Game Master
 #AUTO_DEADMIN_TIMEGATE 600
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
-#AUTO_DEADMIN_ANTAGONISTS
+AUTO_DEADMIN_ANTAGONISTS
 
 ## Uncomment to automatically deadmin specific role sets when a player joins the game.
-#AUTO_DEADMIN_HEADS
-#AUTO_DEADMIN_SECURITY
+AUTO_DEADMIN_HEADS
+AUTO_DEADMIN_SECURITY
 #AUTO_DEADMIN_SILICONS
-
 
 ## CLIENT VERSION CONTROL
 ## This allows you to configure the minimum required client version, as well as a warning version, and message for both.
@@ -523,7 +521,7 @@ CHAT_NEW_GAME_NOTIFICATIONS
 
 ## Allow admin hrefs that don't use the new token system, will eventually be removed
 #DEBUG_ADMIN_HREFS
-
+ 
 ###Master Controller High Pop Mode###
 
 ##The Master Controller(MC) is the primary system controlling timed tasks and events in SS13 (lobby timer, game checks, lighting updates, atmos, etc)
@@ -553,7 +551,7 @@ ROUNDS_UNTIL_HARD_RESTART 0
 
 ##Default view size, in tiles.
 ##	By default, this is 15x15, which gets simplified to 7 by byond
-##  15x15 would be the standard square view. 21x15 is what goonstation uses for widescreen.
+##  15x15 would be the standard square view. 19x15 is what goonstation uses for widescreen.
 ##  Setting this to something different from DEFAULT_VIEW_SQUARE will enable widescreen toggles
 ##	Do note that changing this value will affect the title screen. The title screen will have to be updated manually if this is changed.
 DEFAULT_VIEW 19x15
@@ -603,12 +601,8 @@ HARD_DELETES_OVERRUN_THRESHOLD 0.5
 ## Once a typepath causes overrun from hard deletes this many times, stop hard deleting it on garbage collection failures. (set to 0 to disable)
 HARD_DELETES_OVERRUN_LIMIT 0
 
-## The URL to the webhook for adminhelps to relay the urgent ahelp message to
-## If not set, will disable urgent ahelps.
-#URGENT_ADMINHELP_WEBHOOK_URL
 
-## See above, but for non-urgent ahelps
-#REGULAR_ADMINHELP_WEBHOOK_URL
+## The following uses webhook urls- please see secret/discord.txt (not on the repo) for those. 
 
 ## The urgent ahelp cooldown for a given player if they're alone on a server and need to send an urgent ahelp.
 URGENT_AHELP_COOLDOWN 300
