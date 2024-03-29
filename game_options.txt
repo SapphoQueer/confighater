@@ -422,9 +422,7 @@ ROUNDSTART_RACES ghoul
 
 ## BUBBER RACES DOWN THERE
 ROUNDSTART_RACES shadekin
-ROUNDSTART_RACES nabber
 ROUNDSTART_RACES lesser_abductor
-
 ##-------------------------------------------------------------------------------------------
 
 ## Roundstart no-reset races
@@ -479,10 +477,12 @@ REACTIONARY_EXPLOSIONS
 ## eg: If you give the number 20. The bomb cap will be 5,10,20.
 ## Can be any number above 4, some examples are provided below.
 
+## Pretty much disabled, use to mess with people
+#BOMBCAP 1
 ## Small (3, 7, 14)
-#BOMBCAP 14
+BOMBCAP 14
 ## Default (5, 10, 20) (recommended if you enable REACTIONARY_EXPLOSIONS above)
-BOMBCAP 20
+#BOMBCAP 20
 ## LagHell (7, 14, 28)
 #BOMBCAP 28
 
@@ -585,17 +585,17 @@ OBJECTIVES_ROUNDSTART_POINT_MULTIPLIER 1
 
 ## Minimum population caps for event tracks to run their events.
 MUNDANE_MIN_POP 4
-MODERATE_MIN_POP 6
-MAJOR_MIN_POP 10
-ROLESET_MIN_POP 10
+MODERATE_MIN_POP 20
+MAJOR_MIN_POP 20
+ROLESET_MIN_POP 15
 OBJECTIVES_MIN_POP 10
 
 ## Point thresholds for tracks to run events. The lesser the more frequent events will be.
-MUNDANE_POINT_THRESHOLD 100
+MUNDANE_POINT_THRESHOLD 300
 MODERATE_POINT_THRESHOLD 300
-MAJOR_POINT_THRESHOLD 500
-ROLESET_POINT_THRESHOLD 600
-OBJECTIVES_POINT_THRESHOLD 130
+MAJOR_POINT_THRESHOLD 1000
+ROLESET_POINT_THRESHOLD 400
+OBJECTIVES_POINT_THRESHOLD 300
 
 ## Allows the storyteller to scale event frequencies based on population
 ALLOW_STORYTELLER_POP_SCALING
@@ -603,14 +603,42 @@ ALLOW_STORYTELLER_POP_SCALING
 ## Thresholds that population frequency scalling penalize up to.
 MUNDANE_POP_SCALE_THRESHOLD 10
 MODERATE_POP_SCALE_THRESHOLD 15
-MAJOR_POP_SCALE_THRESHOLD 40
-ROLESET_POP_SCALE_THRESHOLD 45
+MAJOR_POP_SCALE_THRESHOLD 30
+ROLESET_POP_SCALE_THRESHOLD 30
 OBJECTIVES_POP_SCALE_THRESHOLD 40
 
 ## The maximum penalties population scalling will apply to the tracks for having less pop than POP_SCALE_THRESHOLD. This is treated as percentages
 MUNDANE_POP_SCALE_PENALTY 30
 MODERATE_POP_SCALE_PENALTY 30
-MAJOR_POP_SCALE_PENALTY 60
-ROLESET_POP_SCALE_PENALTY 60
+MAJOR_POP_SCALE_PENALTY 30
+ROLESET_POP_SCALE_PENALTY 30
 OBJECTIVES_POP_SCALE_PENALTY 30
 
+## Configuration for station traits of each type.
+## The first value (key) is the budget, or the space available to use for station traits of that type. Some take more space than others.
+## The second value (assoc) is the weight associated with said budget compared to the rest for that type.
+POSITIVE_STATION_TRAITS 0 8
+POSITIVE_STATION_TRAITS 1 4
+POSITIVE_STATION_TRAITS 2 2
+POSITIVE_STATION_TRAITS 3 1
+
+NEUTRAL_STATION_TRAITS 0 10
+NEUTRAL_STATION_TRAITS 1 10
+NEUTRAL_STATION_TRAITS 2 3
+NEUTRAL_STATION_TRAITS 2.5 1
+
+NEGATIVE_STATION_TRAITS 0 8
+NEGATIVE_STATION_TRAITS 1 4
+NEGATIVE_STATION_TRAITS 2 2
+NEGATIVE_STATION_TRAITS 3 1
+
+# Uncomment to disable Quirk point balancing for the server and clients.
+# If enabled, players will be able to select positive quirks without first selecting negative quirks.
+# If enabled, randomized Quirks will still use points internally, in order to maintain balance.
+#DISABLE_QUIRK_POINTS
+
+# The maximum amount of positive quirks one character can have at roundstart.
+# If set to -1, then players will be able to select any quantity of positive quirks.
+# If set to 0, then players won't be able to select any positive quirks.
+# If commented-out or undefined, the maximum default is 6.
+MAX_POSITIVE_QUIRKS 6
