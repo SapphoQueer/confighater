@@ -15,7 +15,6 @@ endmap
 
 map birdshot
 	maxplayers 70
-  votable
 endmap
 
 map metastation
@@ -52,7 +51,6 @@ endmap
 
 map northstar
 	minplayers 65
-  votable
 endmap
 
 map biodome
