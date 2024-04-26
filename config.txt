@@ -24,7 +24,7 @@ $include secret/discord.txt
 SERVERTAGLINE Come share a light with your local moth!
 
 ## Discord Link: This is the link to Bubberstation's discord server
-@DISCORD_LINK https://discord.gg/x4CVEHy6u7
+@DISCORD_LINK https://discord.gg/AvjrTqnqEx
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -276,7 +276,7 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-FORUMURL https://discord.gg/x4CVEHy6u7
+FORUMURL https://discord.gg/AvjrTqnqEx
 
 ## Wiki address
 WIKIURL https://wiki.bubberstation.org/
@@ -409,7 +409,7 @@ PANIC_BUNKER
 
 ## The message the Panic Bunker gives when someone is rejected by it
 ## %minutes% is replaced with PANIC_BUNKER_LIVING on runtime, remove it if you don't want this
-PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/x4CVEHy6u7
+PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/AvjrTqnqEx
 
 ## If panic bunker is on and a player is rejected (see above), attempt to send them to this connected server (see below) instead.
 ##	You probably want this to be the same as CROSS_SERVER_ADDRESS
