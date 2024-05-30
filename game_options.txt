@@ -327,14 +327,14 @@ LAW_WEIGHT drone,0
 ## SILICON LAW MAX AMOUNT ###
 ## The maximum number of laws a silicon can have
 ## Attempting to upload laws past this point will fail unless the AI is reset
-SILICON_MAX_LAW_AMOUNT 12
+SILICON_MAX_LAW_AMOUNT 11
 
 ##------------------------------------------------
 
 ## SILICON LAW MAX LENGTH ###
 ## The maximum number of characters in a law uploaded
 ## Affects Freeform, Core Freeform, and Syndicate Hacked boards.
-#MAX_LAW_LEN 1024
+MAX_LAW_LEN 300
 
 ##------------------------------------------------
 
@@ -423,6 +423,7 @@ ROUNDSTART_RACES ghoul
 ## BUBBER RACES DOWN THERE
 ROUNDSTART_RACES shadekin
 ROUNDSTART_RACES lesser_abductor
+ROUNDSTART_RACES nabber
 ##-------------------------------------------------------------------------------------------
 
 ## Roundstart no-reset races
