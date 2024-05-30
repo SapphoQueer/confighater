@@ -107,7 +107,7 @@ LOG_ADMINCHAT
 #LOG_ASSET
 
 ## log client access (logon/logoff)
-#LOG_ACCESS
+LOG_ACCESS
 
 ## Enables log entries for logins that failed due to suspicious circumstances (banned player, CID randomiser, spoofed BYOND version, etc.) to a dedicated file.
 LOG_SUSPICIOUS_LOGIN
