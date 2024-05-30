@@ -17,7 +17,7 @@
 ## Best of luck editing!
 
 [AI]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 3600
 "Required Account Age" = 30
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -47,7 +47,7 @@
 "Total Positions" = 2
 
 [BLUESHIELD]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 3600
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -65,7 +65,7 @@
 "Total Positions" = 2
 
 [CAPTAIN]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 14
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -89,13 +89,13 @@
 "Total Positions" = 2
 
 [CHIEF_ENGINEER]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
 
 [CHIEF_MEDICAL_OFFICER]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -155,13 +155,13 @@
 "Total Positions" = 2
 
 [HEAD_OF_PERSONNEL]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 14
 "Spawn Positions" = 1
 "Total Positions" = 1
 
 [HEAD_OF_SECURITY]
-"Playtime Requirements" = 1800
+"Playtime Requirements" = 3600
 "Required Account Age" = 21
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -191,7 +191,7 @@
 "Total Positions" = 1
 
 [NANOTRASEN_CONSULTANT]
-"Playtime Requirements" = 1800
+"Playtime Requirements" = 2400
 "Required Account Age" = 21
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -221,13 +221,13 @@
 "Total Positions" = 1
 
 [QUARTERMASTER]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
 
 [RESEARCH_DIRECTOR]
-"Playtime Requirements" = 1200
+"Playtime Requirements" = 2400
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
