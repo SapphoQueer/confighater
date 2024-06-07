@@ -221,7 +221,7 @@ MAX_ROCKING_VOTES 1
 VOTE_DELAY 6000
 
 ## time period (deciseconds) which voting session will last (default 1 minute)
-VOTE_PERIOD 600
+VOTE_PERIOD 1500
 
 ## prevents dead players from voting or starting votes
 #NO_DEAD_VOTE
