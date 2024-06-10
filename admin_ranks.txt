@@ -61,7 +61,7 @@ Exclude =
 Edit =
 
 Name = Senior Administrator
-Include = @
+Include = @ PERMISSIONS
 Exclude =
 Edit =
 
