@@ -14,32 +14,37 @@ Format:
 endmap
 
 map birdshot
-	maxplayers 70
+	minplayers 0
+	maxplayers 40
 endmap
 
 map metastation
-	votable
-	minplayers 30
+	minplayers 20
+	maxplayers 80
 	votable
 endmap
 
 map deltastation
-	minplayers 30
-  votable
+	minplayers 60
+	maxplayers 0
+	votable
 endmap
 
 map kilostation
+	minplayers 0
+	maxplayers 40
 	votable
-	maxplayers 70
 endmap
 
 map icebox
+	minplayers 40
+	maxplayers 0
 	votable
-	minplayers 30
 endmap
 
 map tramstation
-	minplayers 30
+	minplayers 40
+	maxplayers 0
 	votable
 endmap
 
@@ -50,11 +55,13 @@ map multiz_debug
 endmap
 
 map northstar
-	minplayers 65
+	minplayers 80
+	maxplayers 0
 endmap
 
 map biodome
-	minplayers 30
+	minplayers 40
+	maxplayers 0
 	votable
 endmap
 
@@ -62,30 +69,42 @@ endmap
 
 map blueshift
 	minplayers 70
+	maxplayers 0
 	votable
 endmap
 
 map voidraptor
+	minplayers 40
+	maxplayers 0
 	votable
 endmap
 
+##BUBBERS MAPS##
+
 map limastation
-	minplayers 30
-  votable
+	minplayers 40
+	maxplayers 0
+	votable
 endmap
 
 map moonstation
-  votable
+	minplayers 40
+	maxplayers 0
+	votable
 endmap
 
 map ss13_construct
 endmap
 
 map boxstation
-  votable
+	minplayers 30
+	maxplayers 0
+	votable
 endmap
+
 
 map wawastation
 	votable
 	minplayers 40
 endmap
+
