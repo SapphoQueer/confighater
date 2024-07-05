@@ -59,10 +59,17 @@ map northstar
 	maxplayers 0
 endmap
 
-map biodome
-	minplayers 40
+
+map boxstation
+	minplayers 30
 	maxplayers 0
 	votable
+endmap
+
+
+map wawastation
+	votable
+	minplayers 40
 endmap
 
 ##SKYRAT MAPS##
@@ -84,7 +91,6 @@ endmap
 map limastation
 	minplayers 40
 	maxplayers 0
-	votable
 endmap
 
 map moonstation
@@ -93,18 +99,22 @@ map moonstation
 	votable
 endmap
 
+map biodome
+	minplayers 40
+	maxplayers 0
+endmap
+
 map ss13_construct
 endmap
 
-map boxstation
-	minplayers 30
-	maxplayers 0
+
+##EFFIGY MAPS##
+
+map rimpoint
 	votable
 endmap
 
-
-map wawastation
+map sigma_octantis
 	votable
-	minplayers 40
 endmap
 
