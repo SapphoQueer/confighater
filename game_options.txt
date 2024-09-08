@@ -180,7 +180,7 @@ CONFIG_GATEWAY_CHANCE 100
 ## If the number of players ready at round starts exceeds this threshold, JOBS_HAVE_MINIMAL_ACCESS will automatically be enabled. Otherwise, it will be disabled.
 ## This is useful for accomodating both low and high population rounds on the same server.
 ## Comment this out or set to 0 to disable this automatic toggle.
-MINIMAL_ACCESS_THRESHOLD 10
+MINIMAL_ACCESS_THRESHOLD 30
 
 ## Comment this out this if you wish to use the setup where jobs have more access.
 ## This is intended for servers with low populations - where there are not enough
@@ -327,14 +327,14 @@ LAW_WEIGHT drone,0
 ## SILICON LAW MAX AMOUNT ###
 ## The maximum number of laws a silicon can have
 ## Attempting to upload laws past this point will fail unless the AI is reset
-SILICON_MAX_LAW_AMOUNT 12
+SILICON_MAX_LAW_AMOUNT 11
 
 ##------------------------------------------------
 
 ## SILICON LAW MAX LENGTH ###
 ## The maximum number of characters in a law uploaded
 ## Affects Freeform, Core Freeform, and Syndicate Hacked boards.
-#MAX_LAW_LEN 1024
+MAX_LAW_LEN 300
 
 ##------------------------------------------------
 
@@ -362,7 +362,7 @@ ROUNDSTART_RACES snail
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
 #ROUNDSTART_RACES jelly
-ROUNDSTART_RACES abductor
+#ROUNDSTART_RACES abductor
 #ROUNDSTART_RACES synth
 
 ## Including all the various golem subtypes that are better than humans in some ways, but worse in others
@@ -395,7 +395,7 @@ ROUNDSTART_RACES abductor
 
 ## Races that are straight upgrades. If these are on expect powergamers to always pick them
 #ROUNDSTART_RACES skeleton
-#ROUNDSTART_RACES zombie
+ROUNDSTART_RACES zombie
 #ROUNDSTART_RACES slime
 #ROUNDSTART_RACES pod
 #ROUNDSTART_RACES military_synth
@@ -422,8 +422,8 @@ ROUNDSTART_RACES ghoul
 
 ## BUBBER RACES DOWN THERE
 ROUNDSTART_RACES shadekin
+ROUNDSTART_RACES lesser_abductor
 ROUNDSTART_RACES nabber
-
 ##-------------------------------------------------------------------------------------------
 
 ## Roundstart no-reset races
@@ -478,10 +478,12 @@ REACTIONARY_EXPLOSIONS
 ## eg: If you give the number 20. The bomb cap will be 5,10,20.
 ## Can be any number above 4, some examples are provided below.
 
+## Pretty much disabled, use to mess with people
+#BOMBCAP 1
 ## Small (3, 7, 14)
-#BOMBCAP 14
+BOMBCAP 14
 ## Default (5, 10, 20) (recommended if you enable REACTIONARY_EXPLOSIONS above)
-BOMBCAP 20
+#BOMBCAP 20
 ## LagHell (7, 14, 28)
 #BOMBCAP 28
 
@@ -500,7 +502,7 @@ ICEMOON_BUDGET 90
 OCEAN_BUDGET 60
 
 ## Space Ruin Budget
-Space_Budget 16
+Space_Budget 80
 
 ## Time in ds from when a player latejoins till the arrival shuttle docks at the station
 ## Must be at least 30. At least 55 recommended to be visually/aurally appropriate
@@ -517,7 +519,7 @@ ARRIVALS_SHUTTLE_DOCK_WINDOW 55
 MICE_ROUNDSTART 10
 
 ## If the percentage of players alive (doesn't count conversions) drops below this threshold the emergency shuttle will be forcefully called (provided it can be)
-EMERGENCY_SHUTTLE_AUTOCALL_THRESHOLD 0.2
+EMERGENCY_SHUTTLE_AUTOCALL_THRESHOLD 0.5
 
 ## Uncomment to allow roundstart quirk selection in the character setup menu.
 ## This used to be named traits, hence the config name, but it handles quirks, not the other kind of trait!
