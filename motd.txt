@@ -9,6 +9,10 @@
 <center>while allowing others to follow this rule to the best of their ability alongside you.</center></blockquote>
 <hr>
 
-<b><p style="border:2px solid DodgerBlue;">Bubberstation lives and breathes through its community, and we commit fully to ensuring it thrives. If you want to be a part, consider donating on the Ko-Fi <a href=http://ko-fi.com/bubberhost/tiers>(here)</a>, inviting your friends, or helping contribute to the server. <br>
-Just $5 per month and you'll get access to monthly art raffles, and at further tiers, your own cosmetic items, as a personal thank you. <br>
-Every little bit helps. Thank you so much for all that you do.</p></b>
+<center><h2><p style="color:#40E0D0"><tt> &#127930;&#128027; Bubber needs your help! </tt></p></h1></center>
+<center><b>Bubberstation uses donor funds to run the server, and develop the game. </b></center>
+<center><i>Public logging, job exemptions, and many other features were funded by Bubberstation donors.</i></center> 
+<center>If you want to contribute to that, and keep us able to make great changes, check out our ko-fi <a href="https://ko-fi.com/bubberhost"><b>here.</b></a> In exchange, we run monthly art raffles for our donors. It's not much, but it's our way of giving back. </center>
+<center><font size="2"><b><i>Please tip the trumpet bug.</font></i></b></center>
+<br>
+<hr>

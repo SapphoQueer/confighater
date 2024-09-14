@@ -1,20 +1,23 @@
 {
 	"Dynamic": {
-		"pop_per_requirement": 100,
-		"threat_per_midround_roll": 100,
+		"pop_per_requirement": 7,
+		"threat_per_midround_roll": 7,
 		"midround_roll_distance": 3000,
 		"midround_upper_bound": 72000,
-		"midround_lower_bound": 18000,
+		"midround_lower_bound": 6000,
 		"low_pop_player_threshold": 30,
-		"low_pop_maximum_threat": 40,
+		"low_pop_maximum_threat": 30,
 		"latejoin_roll_chance": 50
 	},
 	"Roundstart": {
 		"Traitors": {
-			"cost": 10,
+			"cost": 15,
 			"scaling_cost": 9,
 			"weight": 12,
-			"minimum_required_age": 7
+			"minimum_required_age": 7,
+			"antag_cap": {
+				"denominator": 30
+			  }
 		},
 
 		"Blood Brothers": {
@@ -23,17 +26,23 @@
 		},
 
 		"Changelings": {
-			"cost": 15,
+			"cost": 20,
 			"weight": 3,
 			"minimum_players": 20,
-			"minimum_required_age": 7
+			"minimum_required_age": 7,
+			"antag_cap": {
+				"denominator": 30
+			  }
 		},
 
 		"Heretics": {
-			"cost": 15,
+			"cost": 20,
 			"weight": 3,
 			"minimum_players": 25,
-			"minimum_required_age": 7
+			"minimum_required_age": 7,
+			"antag_cap": {
+				"denominator": 30
+			  }
 		},
 
 		"Wizard": {
@@ -63,7 +72,7 @@
 		"Nuclear Emergency": {
 			"cost": 30,
 			"weight": 1,
-    		"minimum_players": 25,
+			"minimum_players": 35,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -73,15 +82,16 @@
 				70,
 				60,
 				30,
-				10,
-				10,
-				10
+				30,
+				30,
+				30
 				]
 		},
+		
 
 		"Revolution": {
-			"cost": 0,
-			"weight": 1,
+			"cost": 30,
+			"weight": 0,
 			"minimum_players": 25,
 			"minimum_required_age": 7,
 			"requirements": [
@@ -97,6 +107,23 @@
 				10
 			]
 		},
+
+		"Assault Operatives": {
+			"weight": 0
+		},
+
+		"Bloodsuckers":{
+			"weight": 3,
+			"minimum_players": 20,
+			"minimum_required_age": 7,
+			"cost": 20,
+			"scaling_cost": 10,
+			"antag_cap": {
+				"denominator": 30
+			  }
+			
+		},
+
 		"Extended": {
 			"weight": 0,
 			"cost": 0,
@@ -159,7 +186,7 @@
 
 		"Nuclear Assault": {
 			"weight": 0,
-      		"cost": 30,
+			"cost": 30,
 			"minimum_required_age": 7,
 			"requirements": [
 				101,
@@ -214,7 +241,7 @@
 		},
 
 		"Alien Infestation": {
-	      		"cost": 20,
+			"cost": 20,
 			"weight": 2,
 			"minimum_required_age": 7,
 			"repeatable": 0,
@@ -307,7 +334,7 @@
 			]
 		},
 		"Spiders": {
-      		"cost": 15,
+			"cost": 15,
 			"weight": 3,
 			"minimum_players": 30,
 			"minimum_required_age": 7,
@@ -382,9 +409,10 @@
 			"minimum_required_age": 7
 		},
 		"Drifting Contractor": {
-      		"weight": 5,
+			"weight": 5,
 			"cost": 10,
 			"minimum_required_age": 7,
+			"required_candidates": 1,
 			"requirements": [
 				101,
 				70,
@@ -399,7 +427,7 @@
 			]
 		},
 		"Paradox Clone": {
-      		"cost": 10,
+			"cost": 10,
 			"weight": 5,
 			"minimum_required_age": 7
 		}
