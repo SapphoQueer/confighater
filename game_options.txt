@@ -422,7 +422,6 @@ ROUNDSTART_RACES ghoul
 
 ## BUBBER RACES DOWN THERE
 ROUNDSTART_RACES shadekin
-ROUNDSTART_RACES nabber
 
 ##-------------------------------------------------------------------------------------------
 
