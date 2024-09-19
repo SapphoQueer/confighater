@@ -423,7 +423,7 @@ ROUNDSTART_RACES ghoul
 ## BUBBER RACES DOWN THERE
 ROUNDSTART_RACES shadekin
 ROUNDSTART_RACES lesser_abductor
-ROUNDSTART_RACES nabber
+
 ##-------------------------------------------------------------------------------------------
 
 ## Roundstart no-reset races
