@@ -502,7 +502,7 @@ ICEMOON_BUDGET 90
 OCEAN_BUDGET 60
 
 ## Space Ruin Budget
-Space_Budget 80
+Space_Budget 40
 
 ## Time in ds from when a player latejoins till the arrival shuttle docks at the station
 ## Must be at least 30. At least 55 recommended to be visually/aurally appropriate
@@ -568,7 +568,7 @@ MAXFINE 2000
 ## don't need (or want) this.
 #GIVE_TUTORIALS_WITHOUT_DB
 
-## Gamemode configurations
+# Gamemode configurations
 
 ## Multipliers for points gained over time for event tracks.
 MUNDANE_POINT_GAIN_MULTIPLIER 1
