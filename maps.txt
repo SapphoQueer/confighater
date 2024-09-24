@@ -68,16 +68,15 @@ endmap
 
 
 map wawastation
-	votable
 	minplayers 40
 endmap
 
 ##SKYRAT MAPS##
 
+## Blueshift is disabled due to performance reasons
 map blueshift
 	minplayers 70
 	maxplayers 0
-	votable
 endmap
 
 map voidraptor
@@ -102,19 +101,15 @@ endmap
 map biodome
 	minplayers 40
 	maxplayers 0
+  	votable
 endmap
 
 map ss13_construct
 endmap
 
-
-##EFFIGY MAPS##
-
-map rimpoint
-	votable
+map metastation_2
+  votable
 endmap
-
-map sigma_octantis
-	votable
+map metastation dlc
+  votable
 endmap
-
