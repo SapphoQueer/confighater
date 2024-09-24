@@ -10,6 +10,7 @@ $include lua.txt
 $include secret/discord.txt
 $include auxtools.txt
 $include bubbers/intern_tags.txt
+$include bubbers/bubbers_config.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
@@ -23,7 +24,7 @@ $include bubbers/intern_tags.txt
 @SERVERNAME Bubberstation [18+, Furry RP with Antags!] Apply here -->
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE Bubber Summer, brought to you by Effigy! New ocean and jungle maps for a limited time :>
+SERVERTAGLINE The place where everything happens. Join for big RP, now with modern vore.
 
 ## Discord Link: This is the link to Bubberstation's discord server
 @DISCORD_LINK https://discord.gg/AvjrTqnqEx
@@ -190,7 +191,7 @@ PICTURE_LOGGING_CAMERA
 INACTIVITY_PERIOD 300
 
 ## period of time in seconds for players to be considered afk and kickable
-AFK_PERIOD 3000
+AFK_PERIOD 1500
 
 ## disconnect players who are considered afk
 KICK_INACTIVE
@@ -306,16 +307,21 @@ GAMELOGURL https://parsedlogs.bubberstation.org/logs/
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS http://justanotherday.example.com
 
-## System command that invokes youtube-dl, used by Play Internet Sound.
-## You can install youtube-dl with
-## "pip install youtube-dl" if you have pip installed
-## from https://github.com/rg3/youtube-dl/releases
+## System command that invokes yt-dlp, used by Play Internet Sound.
+## You can install yt-dlp with
+## "pip install yt-dlp" if you have pip installed
+## from https://github.com/yt-dlp/yt-dlp/releases
 ## or your package manager
-## The default value assumes youtube-dl is in your system PATH
+## The default value assumes yt-dlp is in your system PATH
 INVOKE_YOUTUBEDL yt-dlp
 
 ## Comment this out to disable users ability to use the request internet sounds to be played.
 REQUEST_INTERNET_SOUND
+
+## Request Internet Sound Allowed URL'S comma separated, urls here are the only sites allowed through Request Internet Sound, Add more to allow more, or remove to disallow.
+## The Defaults here are all supported by yt-dlp
+## Ensure . and / are escaped with \
+REQUEST_INTERNET_ALLOWED youtube\.com\/watch?v=,youtu\.be\/,soundcloud\.com\/,bandcamp\.com\/track\/
 
 ## In-game features
 
@@ -415,10 +421,10 @@ PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord
 
 ## If panic bunker is on and a player is rejected (see above), attempt to send them to this connected server (see below) instead.
 ##	You probably want this to be the same as CROSS_SERVER_ADDRESS
-PANIC_SERVER_ADDRESS byond://skyrat13.space:22094
+#PANIC_SERVER_ADDRESS byond://skyrat13.space:22094
 
 ##Name of the place to send people rejected by the bunker
-PANIC_SERVER_NAME Skyrat SS13
+#PANIC_SERVER_NAME Skyrat SS13
 
 ## Uncomment to have the changelog file automatically open when a user connects and hasn't seen the latest changelog
 AGGRESSIVE_CHANGELOG
@@ -525,7 +531,7 @@ CHAT_NEW_GAME_NOTIFICATIONS
 
 ## Allow admin hrefs that don't use the new token system, will eventually be removed
 #DEBUG_ADMIN_HREFS
- 
+
 ###Master Controller High Pop Mode###
 
 ##The Master Controller(MC) is the primary system controlling timed tasks and events in SS13 (lobby timer, game checks, lighting updates, atmos, etc)
@@ -606,7 +612,7 @@ HARD_DELETES_OVERRUN_THRESHOLD 0.5
 HARD_DELETES_OVERRUN_LIMIT 0
 
 
-## The following uses webhook urls- please see secret/discord.txt (not on the repo) for those. 
+## The following uses webhook urls- please see secret/discord.txt (not on the repo) for those.
 
 ## The urgent ahelp cooldown for a given player if they're alone on a server and need to send an urgent ahelp.
 URGENT_AHELP_COOLDOWN 300
