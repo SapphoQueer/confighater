@@ -40,7 +40,7 @@ Exclude = AUTOADMIN
 Edit =
 
 Name = Moderator
-Include = ADMIN AUTOADMIN BAN BUILD SPAWN VAREDIT SERVER SOUND
+Include = ADMIN AUTOADMIN BAN BUILD SPAWN VAREDIT SERVER
 Exclude =
 Edit =
 
@@ -51,7 +51,7 @@ Exclude =
 Edit =
 
 Name = Trial Admin
-Include = @ POLL POSSESS FUN DEBUG
+Include = @ POLL POSSESS FUN DEBUG SOUND
 Exclude =
 Edit =
 
@@ -84,12 +84,12 @@ Edit =
 Name = Coder
 Include = @
 Exclude = AUTOADMIN
-Edit = 
+Edit =
 
 Name = Lead Maintainer
 Include = @ SOUND
 Exclude = AUTOADMIN
-Edit = 
+Edit =
 
 #Mostly people that have SSH access anyways- zirok, nevimer
 Name = System Administrator
