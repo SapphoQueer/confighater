@@ -113,7 +113,7 @@
 "Total Positions" = 2
 
 [CORRECTIONS_OFFICER]
-"Playtime Requirements" = 450
+"Playtime Requirements" = 600
 "Required Account Age" = 7
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -137,7 +137,7 @@
 "Total Positions" = 5
 
 [DETECTIVE]
-"Playtime Requirements" = 300
+"Playtime Requirements" = 600
 "Required Account Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -251,13 +251,13 @@
 "Total Positions" = 4
 
 [SECURITY_MEDIC]
-"Playtime Requirements" = 360
+"Playtime Requirements" = 600
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
 
 [SECURITY_OFFICER]
-"Playtime Requirements" = 300
+"Playtime Requirements" = 600
 "Required Account Age" = 0
 "Spawn Positions" = 6
 "Total Positions" = 6
