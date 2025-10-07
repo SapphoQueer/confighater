@@ -11,105 +11,112 @@ Format:
 	voteweight [number] (How much to count each player vote as, defaults to 1, setting to 0.5 counts each vote as half a vote, 2 as double, etc, Setting to 0 disables the map but allows players to still pick it)
 	disabled (disables the map)
 	votable (is this map votable)
+	feedbacklink (link in-game shown to players to leave feedback for the map)
+	webmap_url (link to the a webmap to see the map in the user's browser)
 endmap
 
-map birdshot
-	minplayers 0
-	maxplayers 40
-endmap
+# Production-level maps.
 
-map metastation
-	minplayers 20
-	maxplayers 80
-	votable
-endmap
+#map birdshot
+	#default
+#	maxplayers 66
+#	votable
+#endmap
 
 map deltastation
-	minplayers 60
-	maxplayers 0
+	minplayers 25
 	votable
-endmap
-
-map kilostation
-	minplayers 0
-	maxplayers 40
-	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/deltastation
 endmap
 
 map icebox
-	minplayers 40
-	maxplayers 0
+	minplayers 12
 	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/icebox
+endmap
+
+map catwalkstation
+	minplayers 12
+#	votable
+endmap
+
+map metastation
+	#voteweight 0.5
+	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/metastation
 endmap
 
 map tramstation
-	minplayers 40
-	maxplayers 0
+	minplayers 15
+	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/tramstation
+endmap
+
+map nebulastation
+	minplayers 15
 	votable
 endmap
 
-map runtimestation
+map wawastation
+	minplayers 12
+	votable
+endmap
+
+# Bubberstation maps.
+
+map biodome
+	minplayers 20
+	votable
+endmap
+
+map blueshift
+	minplayers 30
+	votable
+	feedbacklink https://discord.com/channels/1059199070016655462/1376747654339624970
+	webmap_url https://webmap.affectedarc07.co.uk/maps/nova/blueshift
+endmap
+
+map boxstation
+	votable
+	feedbacklink https://discord.com/channels/1059199070016655462/1410026686749085757
+endmap
+
+map kilostation
+	maxplayers 50
+	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/kilostation
+endmap
+
+map moonstation
+	minplayers 20
+	votable
+endmap
+
+map voidraptor
+	minplayers 20
+	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/nova/voidraptor
+endmap
+
+map rimpoint
+	votable
+	webmap_url https://webmap.affectedarc07.co.uk/maps/effigy/rimpoint
+endmap
+
+map sigma_octantis
+	webmap_url https://webmap.affectedarc07.co.uk/maps/effigy/sigmaoctantis
+endmap
+
+# Debug-only maps.
+
+map gateway_test
 endmap
 
 map multiz_debug
 endmap
 
-map northstar
-	minplayers 80
-	maxplayers 0
+map runtimestation
 endmap
 
-
-map boxstation
-	minplayers 30
-	maxplayers 0
-	votable
-endmap
-
-
-map wawastation
-	minplayers 40
-endmap
-
-##SKYRAT MAPS##
-
-## Blueshift is disabled due to performance reasons
-map blueshift
-	minplayers 70
-	maxplayers 0
-endmap
-
-map voidraptor
-	minplayers 40
-	maxplayers 0
-	votable
-endmap
-
-##BUBBERS MAPS##
-
-map limastation
-	minplayers 40
-	maxplayers 0
-endmap
-
-map moonstation
-	minplayers 40
-	maxplayers 0
-	votable
-endmap
-
-map biodome
-	minplayers 40
-	maxplayers 0
-  	votable
-endmap
-
-map ss13_construct
-endmap
-
-map metastation_2
-  votable
-endmap
-map metastation dlc
-  votable
+map eventmap
 endmap

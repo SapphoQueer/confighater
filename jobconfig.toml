@@ -90,6 +90,13 @@
 "Spawn Positions" = 5
 "Total Positions" = 5
 
+[BRIDGE_ASSISTANT]
+"# Playtime Requirements" = 300
+"# Required Account Age" = 7
+"# Required Character Age" = 0
+"# Spawn Positions" = 1
+"# Total Positions" = 1
+
 [CHAPLAIN]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
@@ -203,8 +210,8 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 4
-"Total Positions" = 4
+"Spawn Positions" = 3
+"Total Positions" = 3
 
 [LAWYER]
 "Playtime Requirements" = 0
@@ -245,8 +252,8 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 4
-"Total Positions" = 4
+"Spawn Positions" = 3
+"Total Positions" = 3
 
 [PRISONER]
 "Playtime Requirements" = 0
@@ -296,8 +303,8 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 4
-"Total Positions" = 4
+"Spawn Positions" = 5
+"Total Positions" = 5
 
 [SECURITY_MEDIC]
 "Playtime Requirements" = 600
@@ -323,6 +330,13 @@
 [STATION_ENGINEER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 5
+"Total Positions" = 5
+
+[STOWAWAY]
+"Playtime Requirements" = 2400
+"Required Account Age" = 7
 "# Required Character Age" = 0
 "Spawn Positions" = 5
 "Total Positions" = 5

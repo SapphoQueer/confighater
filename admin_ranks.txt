@@ -39,7 +39,7 @@ Include =
 Exclude = AUTOADMIN
 Edit =
 
-Name = Moderator
+Name = Trial Moderator
 Include = ADMIN AUTOADMIN BAN BUILD SPAWN VAREDIT SERVER
 Exclude =
 Edit =
@@ -50,7 +50,7 @@ Include = @
 Exclude =
 Edit =
 
-Name = Trial Admin
+Name = Moderator
 Include = @ POLL POSSESS FUN DEBUG SOUND
 Exclude =
 Edit =
@@ -77,7 +77,7 @@ Edit = EVERYTHING
 
 Name = Maintainer
 Include = DEBUG VAREDIT SERVER SPAWN BUILD ADMIN POLL SOUND FUN
-Exclude = AUTOADMIN
+Exclude =
 Edit =
 
 #not used by us

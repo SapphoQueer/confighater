@@ -1,0 +1,8 @@
+## Default Storyteller. Comment out to enable voting.
+# DEFAULT_STORYTELLER /datum/storyteller/extended
+
+## Gamemode configurations
+
+# Percentage of rounds to have storyteller hidden as secret
+STORYTELLER_SECRET_PERCENTAGE 33
+
