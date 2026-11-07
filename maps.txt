@@ -29,6 +29,7 @@ map icebox
 endmap
 
 map catwalkstation
+	minplayers 25
 #	votable
 endmap
 
